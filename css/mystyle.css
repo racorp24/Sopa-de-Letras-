@@ -1,0 +1,80 @@
+table,tr,td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+tr{
+    width: 20px;
+    border: 1px solid grey;
+    height: 20px;   
+}
+td{
+    width: 20px;
+    border:1px solid black;
+    text-align:center;
+}
+.uva{
+    animation-name: uva;
+    animation-duration: 0.1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.uva:hover{
+    animation-play-state: running;
+}
+.fresa{
+    animation-name: fresa;
+    animation-duration: 0.1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.fresa:hover{
+    animation-play-state: running;
+}
+.naranja{
+    animation-name: naranja;
+    animation-duration: 0.1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.naranja:hover{
+    animation-play-state: running;
+}
+.manzana{
+    animation-name: manzana;
+    animation-duration: 0.1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.manzana:hover{
+    animation-play-state: running;
+}
+.platano{
+    animation-name: platano;
+    animation-duration: 0.1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.platano:hover{
+    animation-play-state: running;
+}
+@keyframes uva {
+    from {background-color: white;}
+    to {background-color: darkslateblue;}
+    }
+@keyframes fresa {
+    from {background-color: white;}
+    to {background-color: crimson;}
+    }
+@keyframes naranja {
+    from {background-color: white;}
+    to {background-color: orange;}
+    }
+@keyframes manzana {
+    from {background-color: white;}
+    to {background-color: chartreuse;}
+    }
+@keyframes platano {
+    from {background-color: white;}
+    to {background-color: gold;}
+    }
